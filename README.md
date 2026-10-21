@@ -4,7 +4,7 @@
 
 **Instructor:** Xingche Guo
 
-Course slides and Python labs on the statistical foundations of generative modeling, from latent-variable models and posterior inference to variational autoencoders and denoising diffusion probabilistic models.
+Course slides and Python labs on the statistical foundations of generative modeling, from latent-variable models and posterior inference to variational autoencoders and diffusion models.
 
 > **Course in progress.** Materials currently available in this repository extend through DDPMs. Score-based diffusion models have **not yet been covered**; their materials will be added as the course progresses. Flow matching and modern diffusion models, including Diffusion Transformers (DiT), are **optional topics not yet covered**. The contents below describe the available materials, rather than a complete final syllabus.
 
