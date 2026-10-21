@@ -1,0 +1,19 @@
+# Operating system and notebook metadata
+.DS_Store
+.ipynb_checkpoints/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded data and generated experiment artifacts (at any depth)
+data/
+models/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pth.tmp
