@@ -35,7 +35,7 @@ Familiarity with probability, statistical inference, linear algebra, multivariab
 | Variational autoencoders | [Lecture 6](VAE/Lecture6.pdf) | Autoencoders, latent representations, reparameterization, the VAE objective, and conditional VAEs |
 | Denoising diffusion probabilistic models | [Lecture 7](DDPM/Lecture7.pdf) | Forward noising, learned reverse transitions, noise prediction, training, and generation |
 
-The DL lectures are supporting material for the neural-network labs; study them before the VAE and DDPM implementations if PyTorch is new to you. Lecture 5 is grouped under MCMC, separately from variational inference.
+The DL lectures are supporting material for the neural-network labs; study them before the VAE and DDPM implementations if PyTorch is new to you. 
 
 ## Notebooks and HTML previews
 
@@ -54,7 +54,7 @@ Each lab has an editable Jupyter notebook and a corresponding HTML export. GitHu
 | DDPMs | Generate MNIST digits with a residual U-Net | [Notebook](DDPM/mnist_ddpm_unet.ipynb) | [Preview](DDPM/mnist_ddpm_unet.html) |
 | DDPMs | Generate CelebA faces with a residual U-Net | [Notebook](DDPM/celeba_ddpm_unet.ipynb) | [Preview](DDPM/celeba_ddpm_unet.html) |
 
-The autoencoder/PCA lab is a useful bridge to VAEs and is kept in the `VAE/` folder. The DDPM labs use attention-free residual U-Nets; they do not implement DiT or flow matching.
+
 
 ## Topics still to come
 
