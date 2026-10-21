@@ -90,36 +90,6 @@ python -m jupyterlab
 
 For a GPU-specific PyTorch installation, follow the [official PyTorch installation instructions](https://pytorch.org/get-started/locally/) and install a compatible `torch`/`torchvision` pair. Use the Python environment above as the notebook kernel. Some labs also include a setup cell that installs missing packages.
 
-Open a notebook, review its settings cell, and run the cells from top to bottom. The notebooks can also be opened in a Python notebook environment such as Google Colab.
-
-- **Start small.** Where available, set `QUICK_RUN=True`, or `RUN_MODE='demo'` in the CIFAR-10 comparison, to check the workflow before a full training run. These modes use reduced training budgets and should not be treated as final model-quality comparisons.
-- **Choose suitable hardware.** The linear Gaussian VI lab and introductory PyTorch examples can run on CPU. A GPU is recommended for the larger CNN, CelebA, and diffusion experiments. Device support varies by notebook; consult its setup cell.
-- **Read saved outputs in context.** Outputs show the configuration used when they were produced. Restart the kernel and rerun the notebook after changing settings. Training results and run time can vary with hardware, random seeds, and library versions.
-- **Train to produce checkpoints.** The repository does not bundle pretrained weights. Inline figures and saved notebook outputs are distinct from the checkpoint files created during training.
-
-### Data and generated files
-
-The linear Gaussian VI lab simulates its own data. The image labs download MNIST, FashionMNIST, CIFAR-10, or CelebA as needed. Datasets are not bundled in the repository.
-
-For CelebA, read the data-loading section before running the training cells. The VAE and DDPM face labs support either the torchvision loader or an existing aligned-image folder through `DATA_SOURCE='folder'` and `IMAGE_DIR`. If available, provide `list_eval_partition.txt` to preserve the official splits. Automatic downloading can fail because of host quotas; the folder option allows reuse of data already prepared locally.
-
-Paths such as `data/`, `models/`, and `outputs/` are relative to the notebook's working directory. Training may save checkpoints, metric tables, figures, and animations there. These generated folders, Python caches, Jupyter checkpoints, and model-weight files are excluded by `.gitignore`; the shared PDF, notebook, and HTML course materials remain tracked.
-
-## Repository layout
-
-```text
-Statistical-Generative-Modeling/
-├── introduction/             # Lecture 1
-├── EM/                       # Lecture 2
-├── HMM/                      # Lecture 3
-├── Variational Inference/    # Lecture 4 and the linear Gaussian VI lab
-├── MCMC/                     # Lecture 5
-├── Deep Learning Overview/   # DL slides and four PyTorch labs
-├── VAE/                      # Lecture 6, autoencoder/PCA, and VAE labs
-├── DDPM/                     # Lecture 7 and DDPM labs
-├── .gitignore
-└── README.md
-```
 
 ## Acknowledgments
 
