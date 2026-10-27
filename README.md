@@ -6,7 +6,7 @@
 
 Course slides and Python labs on the statistical foundations of generative modeling, from latent-variable models and posterior inference to variational autoencoders and diffusion models.
 
-> **Course in progress.** Materials currently available in this repository extend through DDPMs. Score-based diffusion models have **not yet been covered**; their materials will be added as the course progresses. Flow matching and modern diffusion models, including Diffusion Transformers (DiT), are **optional topics not yet covered**. The contents below describe the available materials, rather than a complete final syllabus.
+> **Course in progress.** Materials currently available in this repository extend through score-based generative modeling (Lecture 8), including an introduction to SDE and ODE connections. Flow matching and modern diffusion models, including Diffusion Transformers (DiT), are **optional topics not yet covered**. The contents below describe the available materials, rather than a complete final syllabus.
 
 ## Course overview
 
@@ -19,6 +19,7 @@ The available materials develop:
 - Variational inference, the evidence lower bound (ELBO), and Markov chain Monte Carlo (MCMC).
 - Neural-network foundations and practical model training in PyTorch.
 - Autoencoders, variational autoencoders (VAEs), and DDPM training and sampling.
+- Score matching, noise conditional score networks, annealed Langevin sampling, and an introduction to SDE/ODE connections.
 
 Familiarity with probability, statistical inference, linear algebra, multivariable calculus, and basic Python will be helpful. The deep learning overview provides a bridge into the PyTorch labs.
 
@@ -34,8 +35,9 @@ Familiarity with probability, statistical inference, linear algebra, multivariab
 | Deep learning overview | [DL-1: Foundations](Deep%20Learning%20Overview/Lecture_DL1.pdf) · [DL-1 companion: MLPs in PyTorch](Deep%20Learning%20Overview/Lecture_DL1b.pdf) · [DL-2: CNNs](Deep%20Learning%20Overview/Lecture_DL2.pdf) | MLPs, backpropagation, optimization, CNNs, residual networks, and U-Nets |
 | Variational autoencoders | [Lecture 6](VAE/Lecture6.pdf) | Autoencoders, latent representations, reparameterization, the VAE objective, and conditional VAEs |
 | Denoising diffusion probabilistic models | [Lecture 7](DDPM/Lecture7.pdf) | Forward noising, learned reverse transitions, noise prediction, training, and generation |
+| Score-based generative modeling | [Lecture 8](Score%20Based/Lecture8.pdf) | Score matching and denoising score matching, noise conditional score networks, annealed Langevin sampling, and SDE/ODE connections |
 
-The DL lectures are supporting material for the neural-network labs; study them before the VAE and DDPM implementations if PyTorch is new to you. 
+The DL lectures are supporting material for the neural-network labs; study them before the VAE and DDPM implementations if PyTorch is new to you. The [media directory](media/) contains animations linked from the slides.
 
 ## Notebooks and HTML previews
 
@@ -60,7 +62,6 @@ Each lab has an editable Jupyter notebook and a corresponding HTML export. GitHu
 
 | Topic | Course status |
 | --- | --- |
-| Score-based diffusion models | Upcoming; not yet covered, and materials are not yet included |
 | Flow matching | Optional; not yet covered, and materials are not yet included |
 | Modern diffusion models, including Diffusion Transformers (DiT) | Optional; not yet covered, and materials are not yet included |
 
