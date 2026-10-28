@@ -62,6 +62,7 @@ Each lab has an editable Jupyter notebook and a corresponding HTML export. GitHu
 
 | Topic | Course status |
 | --- | --- |
+| SDEs and continuous-time diffusion models | Forthcoming; detailed mathematical derivations building on Lecture 8's introductory SDE/ODE material |
 | Flow matching | Optional; not yet covered, and materials are not yet included |
 | Modern diffusion models, including Diffusion Transformers (DiT) | Optional; not yet covered, and materials are not yet included |
 
