@@ -57,6 +57,7 @@ Each lab has an editable Jupyter notebook and a corresponding HTML export. GitHu
 | VAEs | Generate CelebA faces with a convolutional VAE | [Notebook](VAE/celeba_vanilla_vae_lab.ipynb) | [Preview](VAE/celeba_vanilla_vae_lab.html) |
 | DDPMs | Generate MNIST digits with a residual U-Net | [Notebook](DDPM/mnist_ddpm_unet.ipynb) | [Preview](DDPM/mnist_ddpm_unet.html) |
 | DDPMs | Generate CelebA faces with a residual U-Net | [Notebook](DDPM/celeba_ddpm_unet.ipynb) | [Preview](DDPM/celeba_ddpm_unet.html) |
+| Score-based models | Generate MNIST digits with NCSN, a residual U-Net, and annealed Langevin dynamics | [Notebook](Score%20Based/mnist_ncsn_unet.ipynb) | [Preview](Score%20Based/mnist_ncsn_unet.html) |
 
 
 
