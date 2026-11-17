@@ -46,6 +46,7 @@ Familiarity with probability, statistical inference, linear algebra, multivariab
 | --- | --- | --- |
 | Multilayer perceptrons (MLP) | [DL-1: Foundations](Deep%20Learning%20Overview/Lecture_DL1.pdf) · [DL-1 companion: MLPs in PyTorch](Deep%20Learning%20Overview/Lecture_DL1b.pdf) | MLPs, backpropagation, optimization, and implementation in PyTorch |
 | Convolutional neural networks (CNN) | [DL-2: CNNs](Deep%20Learning%20Overview/Lecture_DL2.pdf) | CNNs, residual networks, and U-Nets |
+| Recurrent neural networks (RNN) | [DL-3: RNNs](Deep%20Learning%20Overview/Lecture_DL3.pdf) | RNNs, backpropagation through time, GRUs, LSTMs, sequence-to-sequence models, and attention |
 
 
 The DL lectures are supporting material for the neural-network labs; study them before the VAE and DDPM implementations if PyTorch is new to you. The [media directory](media/) contains animations linked from the slides.
