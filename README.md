@@ -30,15 +30,15 @@ Familiarity with probability, statistical inference, linear algebra, multivariab
 
 | Topic | Slides | Main content |
 | --- | --- | --- |
-| Introduction | [Lecture 1](introduction/Lecture1.pdf) | Generative modeling, learning and sampling, conditional generation, and latent variables |
-| Expectation-maximization | [Lecture 2](EM/Lecture2.pdf) | EM derivation, likelihood ascent, Gaussian mixtures, and extensions |
-| Hidden Markov models | [Lecture 3](HMM/Lecture3.pdf) | Forward-backward inference, EM/Baum-Welch estimation, and Viterbi decoding |
-| Variational inference | [Lecture 4](Variational%20Inference/Lecture4.pdf) | Posterior approximation, the ELBO, variational EM, amortized and stochastic inference, and variational Bayes |
-| Markov chain Monte Carlo | [Lecture 5](MCMC/Lecture5.pdf) | Gibbs sampling, Metropolis-Hastings, posterior summaries, and stationarity |
-| Variational autoencoders | [Lecture 6](VAE/Lecture6.pdf) | Autoencoders, latent representations, reparameterization, the VAE objective, and conditional VAEs |
-| Denoising diffusion probabilistic models | [Lecture 7](DDPM/Lecture7.pdf) | Forward noising, learned reverse transitions, noise prediction, training, and generation |
-| Score-based generative modeling | [Lecture 8](Score%20Based/Lecture8.pdf) | Score matching and denoising score matching, noise conditional score networks, annealed Langevin sampling, and SDE/ODE connections |
-| SDEs and continuous-time diffusion models | [Lecture 9](SDE/Lecture9.pdf) | Brownian motion, Itô calculus, Fokker–Planck derivation, Langevin dynamics, VP/VE SDEs, reverse-time SDEs, and probability-flow ODEs |
+| Introduction | [Lecture&nbsp;1](introduction/Lecture1.pdf) | Generative modeling, learning and sampling, conditional generation, and latent variables |
+| Expectation-maximization | [Lecture&nbsp;2](EM/Lecture2.pdf) | EM derivation, likelihood ascent, Gaussian mixtures, and extensions |
+| Hidden Markov models | [Lecture&nbsp;3](HMM/Lecture3.pdf) | Forward-backward inference, EM/Baum-Welch estimation, and Viterbi decoding |
+| Variational inference | [Lecture&nbsp;4](Variational%20Inference/Lecture4.pdf) | Posterior approximation, the ELBO, variational EM, amortized and stochastic inference, and variational Bayes |
+| Markov chain Monte Carlo | [Lecture&nbsp;5](MCMC/Lecture5.pdf) | Gibbs sampling, Metropolis-Hastings, posterior summaries, and stationarity |
+| Variational autoencoders | [Lecture&nbsp;6](VAE/Lecture6.pdf) | Autoencoders, latent representations, reparameterization, the VAE objective, and conditional VAEs |
+| Denoising diffusion probabilistic models | [Lecture&nbsp;7](DDPM/Lecture7.pdf) | Forward noising, learned reverse transitions, noise prediction, training, and generation |
+| Score-based generative modeling | [Lecture&nbsp;8](Score%20Based/Lecture8.pdf) | Score matching and denoising score matching, noise conditional score networks, annealed Langevin sampling, and SDE/ODE connections |
+| SDEs and continuous-time diffusion models | [Lecture&nbsp;9](SDE/Lecture9.pdf) | Brownian motion, Itô calculus, Fokker–Planck derivation, Langevin dynamics, VP/VE SDEs, reverse-time SDEs, and probability-flow ODEs |
 
 ### Deep learning
 
