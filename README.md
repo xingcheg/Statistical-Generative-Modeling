@@ -17,7 +17,8 @@ The available materials develop:
 - Latent-variable modeling, maximum likelihood, and the expectation-maximization (EM) algorithm.
 - Hidden Markov models, posterior state inference, and decoding.
 - Variational inference, the evidence lower bound (ELBO), and Markov chain Monte Carlo (MCMC).
-- Neural-network foundations and practical model training in PyTorch.
+- Neural-network foundations, MLPs, CNNs, backpropagation, optimization, and practical training in PyTorch.
+- Sequence modeling with RNNs, attention, Transformers, and large language models, including topics beyond pretraining.
 - Autoencoders, variational autoencoders (VAEs), and DDPM training and sampling.
 - Score matching, noise conditional score networks, and annealed Langevin sampling.
 - Brownian motion, Itô calculus, the Fokker–Planck equation, and derivations of continuous-time diffusion models, reverse-time SDEs, and probability-flow ODEs.
@@ -43,7 +44,7 @@ Familiarity with probability, statistical inference, linear algebra, multivariab
 | Multilayer perceptrons (MLP) | [DL-1: Foundations](Deep%20Learning%20Overview/Lecture_DL1.pdf) · [DL-1 companion: MLPs in PyTorch](Deep%20Learning%20Overview/Lecture_DL1b.pdf) | MLPs, backpropagation, optimization, and implementation in PyTorch |
 | Convolutional neural networks (CNN) | [DL-2: CNNs](Deep%20Learning%20Overview/Lecture_DL2.pdf) | CNNs, residual networks, and U-Nets |
 | Recurrent neural networks (RNN) | [DL-3: RNNs](Deep%20Learning%20Overview/Lecture_DL3.pdf) | RNNs, backpropagation through time, GRUs, LSTMs, sequence-to-sequence models, and attention |
-| Large language models (LLM) | [DL-4: LLMs](Deep%20Learning%20Overview/Lecture_DL4.pdf) | Transformers, attention, language modeling, generation, fine-tuning, LoRA, RLHF, CoT, RAG, and mixture of experts |
+| Large language models (LLM) | [DL-4: LLMs](Deep%20Learning%20Overview/Lecture_DL4.pdf) | Transformers, attention, language modeling, generation, and topics beyond pretraining |
 
 ### Part 3: Modern deep generative models
 
