@@ -26,7 +26,7 @@ Familiarity with probability, statistical inference, linear algebra, multivariab
 
 ## Lecture materials
 
-### Generative modeling (main course)
+### Part 1: Classical statistical generative models
 
 | Topic | Slides | Main content |
 | --- | --- | --- |
@@ -35,19 +35,24 @@ Familiarity with probability, statistical inference, linear algebra, multivariab
 | Hidden Markov models | [Lecture&nbsp;3](HMM/Lecture3.pdf) | Forward-backward inference, EM/Baum-Welch estimation, and Viterbi decoding |
 | Variational inference | [Lecture&nbsp;4](Variational%20Inference/Lecture4.pdf) | Posterior approximation, the ELBO, variational EM, amortized and stochastic inference, and variational Bayes |
 | Markov chain Monte Carlo | [Lecture&nbsp;5](MCMC/Lecture5.pdf) | Gibbs sampling, Metropolis-Hastings, posterior summaries, and stationarity |
-| Variational autoencoders | [Lecture&nbsp;6](VAE/Lecture6.pdf) | Autoencoders, latent representations, reparameterization, the VAE objective, and conditional VAEs |
-| Denoising diffusion probabilistic models | [Lecture&nbsp;7](DDPM/Lecture7.pdf) | Forward noising, learned reverse transitions, noise prediction, training, and generation |
-| Score-based generative modeling | [Lecture&nbsp;8](Score%20Based/Lecture8.pdf) | Score matching and denoising score matching, noise conditional score networks, annealed Langevin sampling, and SDE/ODE connections |
-| SDEs and continuous-time diffusion models | [Lecture&nbsp;9](SDE/Lecture9.pdf) | Brownian motion, Itô calculus, Fokker–Planck derivation, Langevin dynamics, VP/VE SDEs, reverse-time SDEs, and probability-flow ODEs |
 
-### Deep learning
+### Part 2: Deep learning overview and LLMs
 
 | Topic | Slides | Main content |
 | --- | --- | --- |
 | Multilayer perceptrons (MLP) | [DL-1: Foundations](Deep%20Learning%20Overview/Lecture_DL1.pdf) · [DL-1 companion: MLPs in PyTorch](Deep%20Learning%20Overview/Lecture_DL1b.pdf) | MLPs, backpropagation, optimization, and implementation in PyTorch |
 | Convolutional neural networks (CNN) | [DL-2: CNNs](Deep%20Learning%20Overview/Lecture_DL2.pdf) | CNNs, residual networks, and U-Nets |
 | Recurrent neural networks (RNN) | [DL-3: RNNs](Deep%20Learning%20Overview/Lecture_DL3.pdf) | RNNs, backpropagation through time, GRUs, LSTMs, sequence-to-sequence models, and attention |
+| Large language models (LLM) | [DL-4: LLMs](Deep%20Learning%20Overview/Lecture_DL4.pdf) | Transformers, attention, language modeling, generation, fine-tuning, LoRA, RLHF, CoT, RAG, and mixture of experts |
 
+### Part 3: Modern deep generative models
+
+| Topic | Slides | Main content |
+| --- | --- | --- |
+| Variational autoencoders | [Lecture&nbsp;6](VAE/Lecture6.pdf) | Autoencoders, latent representations, reparameterization, the VAE objective, and conditional VAEs |
+| Denoising diffusion probabilistic models | [Lecture&nbsp;7](DDPM/Lecture7.pdf) | Forward noising, learned reverse transitions, noise prediction, training, and generation |
+| Score-based generative modeling | [Lecture&nbsp;8](Score%20Based/Lecture8.pdf) | Score matching and denoising score matching, noise conditional score networks, annealed Langevin sampling, and SDE/ODE connections |
+| SDEs and continuous-time diffusion models | [Lecture&nbsp;9](SDE/Lecture9.pdf) | Brownian motion, Itô calculus, Fokker–Planck derivation, Langevin dynamics, VP/VE SDEs, reverse-time SDEs, and probability-flow ODEs |
 
 The DL lectures are supporting material for the neural-network labs; study them before the VAE and DDPM implementations if PyTorch is new to you. The [media directory](media/) contains animations linked from the slides.
 
